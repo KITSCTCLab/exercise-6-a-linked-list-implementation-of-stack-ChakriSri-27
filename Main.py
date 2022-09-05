@@ -9,15 +9,27 @@ class Stack:
     self.head = None
 
   def push(self, data) -> None:
+    if top is equal to NULL
+    newNode -> next= NULL
+    else
+    newNode -> = top
+    
     # Write your code here
 
   def pop(self) -> None:
+    if top==NULL
+    print("stack overflow")
+    else
+    temp=top
+    top=temp->next
+    free(temp)
     # Write your code here
 
   def status(self):
     """
     It prints all the elements of stack.
     """
+    Traverse till temp=0
     # Write your code here  
 
 
