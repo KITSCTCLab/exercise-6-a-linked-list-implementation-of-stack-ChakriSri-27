@@ -8,29 +8,27 @@ class Stack:
   def __init__(self):
     self.head = None
 
-  def push(self, data) -> None:
-    if top is equal to NULL
-    newNode -> next= NULL
-    else
-    newNode -> = top
-    
-    # Write your code here
-
-  def pop(self) -> None:
-    if top==NULL
-    print("stack overflow")
-    else
-    temp=top
-    top=temp->next
-    free(temp)
-    # Write your code here
+  def push(self, data):
+        if self.head is None:
+            self.head = Node(data)
+        else:
+            new_node = Node(data)
+            new_node.next = self.head
+            self.head = new_node
+ 
+    def pop(self):
+        if self.head is None:
+            return None
+        else:
+            popped = self.head.data
+            self.head = self.head.next
+            return popped
 
   def status(self):
     """
     It prints all the elements of stack.
     """
-    Traverse till temp=0
-    # Write your code here  
+   top->data
 
 
 # Do not change the following code
