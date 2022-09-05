@@ -24,11 +24,11 @@ class Stack:
             self.head = self.head.next
             return popped
 
-  def status(self):
+ # def status(self):
     """
     It prints all the elements of stack.
     """
-   top->data
+  
 
 
 # Do not change the following code
